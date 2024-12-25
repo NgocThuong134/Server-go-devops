@@ -13,7 +13,7 @@ func main() {
 	// Định nghĩa endpoint GET /
 	r.GET("/ping", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "Pong Welcome to the Gin server!",
+			"message": "Pong Welcome to the Gin server 1!",
 		})
 	})
 
